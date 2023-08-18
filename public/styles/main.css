@@ -1,0 +1,48 @@
+#joke-container {
+  margin-top: 200px;
+  margin-bottom: 300px;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+#namelabel {
+  color: white;
+  font-size: medium;
+  margin-left: 50%;
+  margin-right: 50%;
+}
+#fname {
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 50%;
+}
+.form-submit {
+  margin-left: 50%;
+  margin-right: 50%;
+  color: white;
+  background-color: black;
+  padding: 10px 24px;
+  border: 2px solid #e7e7e7;
+}
+.form-submit:hover{
+    margin-left: 50%;
+    margin-right: 50%;
+    color: black;
+    background-color: white;
+    padding: 10px 24px;
+    border: 2px solid #555555;
+}
+body {
+  background-color: black;
+}
+h1 {
+  color: white;
+  text-decoration: underline;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: large;
+  text-align: center;
+}
+h2 {
+  color: white;
+  font-size: large;
+  text-align: center;
+}

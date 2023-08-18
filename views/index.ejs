@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <title>API Project</title>
+  </head>
+  <body>
+    <div id="joke-container">
+    <h1>Dark Joke API</h1>
+    <% if(locals.data) {%>
+     <% if(locals.data.joke){ %>
+        <h2 id="joke"><%=data.joke%></h2>
+    <%} else{%>
+    <h2 id="setup"><%=data.setup%></h1>
+    <h2 id="delivery"><%=data.delivery%></h1> 
+    <%}%> 
+    <%}%> 
+</div>
+  </body>
+</html>
